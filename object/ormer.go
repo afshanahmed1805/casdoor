@@ -56,7 +56,7 @@ func getCreateDatabaseFlag() bool {
 }
 
 func getConfigFlag() string {
-	res := flag.String("config", "conf/app.conf", "set it to \"/your/path/app.conf\" if your config file is not in: \"/conf/app.conf\"")
+	res := flag.String("casdoor-config", "conf/app.conf", "set it to \"/your/path/app.conf\" if your config file is not in: \"/conf/app.conf\"")
 	flag.Parse()
 	return *res
 }
