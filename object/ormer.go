@@ -32,10 +32,10 @@ import (
 	_ "github.com/denisenkom/go-mssqldb" // db = mssql
 	_ "github.com/go-sql-driver/mysql"   // db = mysql
 	_ "github.com/lib/pq"                // db = postgres
+	_ "github.com/mattn/go-sqlite3"      // db = sqlite
 	"github.com/xorm-io/xorm"
 	"github.com/xorm-io/xorm/core"
 	"github.com/xorm-io/xorm/names"
-	_ "modernc.org/sqlite" // db = sqlite
 )
 
 var (
