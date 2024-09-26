@@ -17,7 +17,7 @@ package controllers
 import (
 	"encoding/json"
 
-	"github.com/casdoor/casdoor/object"
+	"github.com/afshanahmed1805/casdoor/object"
 )
 
 type LinkForm struct {

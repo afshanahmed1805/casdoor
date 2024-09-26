@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/afshanahmed1805/casdoor/object"
+	"github.com/afshanahmed1805/casdoor/util"
 	"github.com/beego/beego"
 	"github.com/beego/beego/logs"
-	"github.com/casdoor/casdoor/object"
-	"github.com/casdoor/casdoor/util"
 )
 
 // ApiController

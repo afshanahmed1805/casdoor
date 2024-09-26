@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/casdoor/casdoor/conf"
+	"github.com/afshanahmed1805/casdoor/conf"
 	"golang.org/x/net/proxy"
 )
 

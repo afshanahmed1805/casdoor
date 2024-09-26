@@ -6,8 +6,8 @@ import (
 
 	"github.com/casbin/casbin/v2/errors"
 
+	"github.com/afshanahmed1805/casdoor/util"
 	"github.com/casbin/casbin/v2"
-	"github.com/casdoor/casdoor/util"
 )
 
 type UserGroupEnforcer struct {

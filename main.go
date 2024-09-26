@@ -12,25 +12,25 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package main
+package casdoor
 
 import (
 	"fmt"
 
+	"github.com/afshanahmed1805/casdoor/authz"
+	"github.com/afshanahmed1805/casdoor/conf"
+	"github.com/afshanahmed1805/casdoor/ldap"
+	"github.com/afshanahmed1805/casdoor/object"
+	"github.com/afshanahmed1805/casdoor/proxy"
+	"github.com/afshanahmed1805/casdoor/radius"
+	"github.com/afshanahmed1805/casdoor/routers"
+	"github.com/afshanahmed1805/casdoor/util"
 	"github.com/beego/beego"
 	"github.com/beego/beego/logs"
 	_ "github.com/beego/beego/session/redis"
-	"github.com/casdoor/casdoor/authz"
-	"github.com/casdoor/casdoor/conf"
-	"github.com/casdoor/casdoor/ldap"
-	"github.com/casdoor/casdoor/object"
-	"github.com/casdoor/casdoor/proxy"
-	"github.com/casdoor/casdoor/radius"
-	"github.com/casdoor/casdoor/routers"
-	"github.com/casdoor/casdoor/util"
 )
 
-func main() {
+func Init() {
 	object.InitFlag()
 	object.InitAdapter()
 	object.CreateTables()

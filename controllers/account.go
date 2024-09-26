@@ -20,9 +20,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/casdoor/casdoor/form"
-	"github.com/casdoor/casdoor/object"
-	"github.com/casdoor/casdoor/util"
+	"github.com/afshanahmed1805/casdoor/form"
+	"github.com/afshanahmed1805/casdoor/object"
+	"github.com/afshanahmed1805/casdoor/util"
 )
 
 const (
@@ -312,7 +312,7 @@ func (c *ApiController) Logout() {
 	user := c.GetSessionUsername()
 
 	if accessToken == "" && redirectUri == "" {
-		// TODO https://github.com/casdoor/casdoor/pull/1494#discussion_r1095675265
+		// TODO https://github.com/afshanahmed1805/casdoor/pull/1494#discussion_r1095675265
 		if user == "" {
 			c.ResponseOk()
 			return
@@ -337,7 +337,7 @@ func (c *ApiController) Logout() {
 		c.ResponseOk(user, application.HomepageUrl)
 		return
 	} else {
-		// "post_logout_redirect_uri" has been made optional, see: https://github.com/casdoor/casdoor/issues/2151
+		// "post_logout_redirect_uri" has been made optional, see: https://github.com/afshanahmed1805/casdoor/issues/2151
 		// if redirectUri == "" {
 		// 	c.ResponseError(c.T("general:Missing parameter") + ": post_logout_redirect_uri")
 		// 	return
@@ -367,7 +367,7 @@ func (c *ApiController) Logout() {
 
 		c.ClearUserSession()
 		c.ClearTokenSession()
-		// TODO https://github.com/casdoor/casdoor/pull/1494#discussion_r1095675265
+		// TODO https://github.com/afshanahmed1805/casdoor/pull/1494#discussion_r1095675265
 		owner, username := util.GetOwnerAndNameFromId(user)
 
 		_, err = object.DeleteSessionId(util.GetSessionId(owner, username, object.CasdoorApplication), c.Ctx.Input.CruSession.SessionID())

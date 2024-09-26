@@ -20,7 +20,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/casdoor/casdoor/conf"
+	"github.com/afshanahmed1805/casdoor/conf"
 	"github.com/go-webauthn/webauthn/protocol"
 	"github.com/go-webauthn/webauthn/webauthn"
 )

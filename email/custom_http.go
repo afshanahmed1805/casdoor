@@ -20,7 +20,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/casdoor/casdoor/proxy"
+	"github.com/afshanahmed1805/casdoor/proxy"
 )
 
 type HttpEmailProvider struct {

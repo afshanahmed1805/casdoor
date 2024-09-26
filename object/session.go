@@ -17,8 +17,8 @@ package object
 import (
 	"fmt"
 
+	"github.com/afshanahmed1805/casdoor/util"
 	"github.com/beego/beego"
-	"github.com/casdoor/casdoor/util"
 	"github.com/xorm-io/core"
 )
 

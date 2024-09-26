@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/casdoor/casdoor/object"
-	"github.com/casdoor/casdoor/util"
+	"github.com/afshanahmed1805/casdoor/object"
+	"github.com/afshanahmed1805/casdoor/util"
 )
 
 func (c *ApiController) UploadRoles() {
