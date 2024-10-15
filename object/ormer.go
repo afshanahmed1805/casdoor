@@ -41,7 +41,7 @@ import (
 var (
 	ormer          *Ormer = nil
 	createDatabase        = true
-	configPath            = "conf/app.conf"
+	configPath            = "conf/casdoor.conf"
 )
 
 func InitFlag() {
@@ -56,13 +56,13 @@ func getCreateDatabaseFlag() bool {
 }
 
 func getConfigFlag() string {
-	res := flag.String("config", "conf/app.conf", "set it to \"/your/path/app.conf\" if your config file is not in: \"/conf/app.conf\"")
+	res := flag.String("casdoor-config", "conf/casdoor.conf", "set it to \"/your/path/app.conf\" if your config file is not in: \"/conf/casdoor.conf\"")
 	flag.Parse()
 	return *res
 }
 
 func InitConfig() {
-	err := beego.LoadAppConfig("ini", "../conf/app.conf")
+	err := beego.LoadAppConfig("ini", "conf/casdoor.conf")
 	if err != nil {
 		panic(err)
 	}
