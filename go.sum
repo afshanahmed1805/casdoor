@@ -1083,6 +1083,8 @@ github.com/casbin/casbin/v2 v2.28.3/go.mod h1:vByNa/Fchek0KZUgG5wEsl7iFsiviAYKRt
 github.com/casbin/casbin/v2 v2.37.0/go.mod h1:vByNa/Fchek0KZUgG5wEsl7iFsiviAYKRtgrQfcJqHg=
 github.com/casbin/casbin/v2 v2.77.2 h1:yQinn/w9x8AswiwqwtrXz93VU48R1aYTXdHEx4RI3jM=
 github.com/casbin/casbin/v2 v2.77.2/go.mod h1:mzGx0hYW9/ksOSpw3wNjk3NRAroq5VMFYUQ6G43iGPk=
+github.com/casdoor/casdoor v1.727.0 h1:7h/NVx0LTIwIQ/iSJE26S+a3UMAgJJVWWhfEtPhPH7E=
+github.com/casdoor/casdoor v1.727.0/go.mod h1:yZ7C4IoNb4/qR2syhPHf4+OZSwls9M9M/I7yz2VvPPw=
 github.com/casdoor/casdoor-go-sdk v0.50.0 h1:bUYbz/MzJuWfLKJbJM0+U0YpYewAur+THp5TKnufWZM=
 github.com/casdoor/casdoor-go-sdk v0.50.0/go.mod h1:cMnkCQJgMYpgAlgEx8reSt1AVaDIQLcJ1zk5pzBaz+4=
 github.com/casdoor/go-reddit/v2 v2.1.0 h1:kIbfdJ7AA7H0uTQ8s0q4GGZqSS5V9wVE74RrXyD9XPs=
