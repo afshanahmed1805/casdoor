@@ -1,4 +1,4 @@
-module github.com/casdoor/casdoor
+module afshanahmed1805/casdoor/casdoor
 
 go 1.16
 
