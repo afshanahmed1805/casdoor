@@ -17,9 +17,9 @@ package controllers
 import (
 	"encoding/json"
 
+	"github.com/afshanahmed1805/casdoor/object"
+	"github.com/afshanahmed1805/casdoor/util"
 	"github.com/beego/beego/utils/pagination"
-	"github.com/casdoor/casdoor/object"
-	"github.com/casdoor/casdoor/util"
 )
 
 // GetSyncers

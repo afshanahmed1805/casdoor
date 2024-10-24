@@ -20,9 +20,9 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/afshanahmed1805/casdoor/conf"
+	"github.com/afshanahmed1805/casdoor/util"
 	"github.com/beego/beego/context"
-	"github.com/casdoor/casdoor/conf"
-	"github.com/casdoor/casdoor/util"
 	"github.com/casvisor/casvisor-go-sdk/casvisorsdk"
 )
 

@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/afshanahmed1805/casdoor/util"
 	"github.com/beego/beego/logs"
-	"github.com/casdoor/casdoor/util"
 )
 
 type LdapAutoSynchronizer struct {

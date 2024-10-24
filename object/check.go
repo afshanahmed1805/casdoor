@@ -21,10 +21,10 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/casdoor/casdoor/cred"
-	"github.com/casdoor/casdoor/form"
-	"github.com/casdoor/casdoor/i18n"
-	"github.com/casdoor/casdoor/util"
+	"github.com/afshanahmed1805/casdoor/cred"
+	"github.com/afshanahmed1805/casdoor/form"
+	"github.com/afshanahmed1805/casdoor/i18n"
+	"github.com/afshanahmed1805/casdoor/util"
 	goldap "github.com/go-ldap/ldap/v3"
 )
 

@@ -24,10 +24,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/afshanahmed1805/casdoor/conf"
+	"github.com/afshanahmed1805/casdoor/object"
+	"github.com/afshanahmed1805/casdoor/util"
 	"github.com/beego/beego/context"
-	"github.com/casdoor/casdoor/conf"
-	"github.com/casdoor/casdoor/object"
-	"github.com/casdoor/casdoor/util"
 )
 
 var (

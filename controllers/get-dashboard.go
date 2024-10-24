@@ -14,7 +14,7 @@
 
 package controllers
 
-import "github.com/casdoor/casdoor/object"
+import "github.com/afshanahmed1805/casdoor/object"
 
 // GetDashboard
 // @Title GetDashboard

@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/afshanahmed1805/casdoor/i18n"
+	"github.com/afshanahmed1805/casdoor/util"
 	"github.com/beevik/etree"
-	"github.com/casdoor/casdoor/i18n"
-	"github.com/casdoor/casdoor/util"
 	dsig "github.com/russellhaering/goxmldsig"
 )
 

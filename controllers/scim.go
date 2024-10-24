@@ -17,7 +17,7 @@ package controllers
 import (
 	"strings"
 
-	"github.com/casdoor/casdoor/scim"
+	"github.com/afshanahmed1805/casdoor/scim"
 )
 
 func (c *RootController) HandleScim() {

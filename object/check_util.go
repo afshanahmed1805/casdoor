@@ -19,7 +19,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/casdoor/casdoor/i18n"
+	"github.com/afshanahmed1805/casdoor/i18n"
 )
 
 var reRealName *regexp.Regexp

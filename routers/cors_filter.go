@@ -18,9 +18,9 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/afshanahmed1805/casdoor/conf"
+	"github.com/afshanahmed1805/casdoor/object"
 	"github.com/beego/beego/context"
-	"github.com/casdoor/casdoor/conf"
-	"github.com/casdoor/casdoor/object"
 )
 
 const (

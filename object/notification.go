@@ -17,7 +17,7 @@ package object
 import (
 	"context"
 
-	"github.com/casdoor/casdoor/notification"
+	"github.com/afshanahmed1805/casdoor/notification"
 	"github.com/casdoor/notify"
 )
 

@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/afshanahmed1805/casdoor/captcha"
+	"github.com/afshanahmed1805/casdoor/form"
+	"github.com/afshanahmed1805/casdoor/object"
+	"github.com/afshanahmed1805/casdoor/util"
 	"github.com/beego/beego/utils/pagination"
-	"github.com/casdoor/casdoor/captcha"
-	"github.com/casdoor/casdoor/form"
-	"github.com/casdoor/casdoor/object"
-	"github.com/casdoor/casdoor/util"
 )
 
 const (
