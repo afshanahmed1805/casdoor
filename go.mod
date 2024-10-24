@@ -9,13 +9,12 @@ require (
 	github.com/beego/beego v1.12.12
 	github.com/beevik/etree v1.1.0
 	github.com/casbin/casbin/v2 v2.77.2
-	github.com/afshanahmed1805/casdoor v1.727.0
 	github.com/casdoor/go-sms-sender v0.24.0
 	github.com/casdoor/gomail/v2 v2.0.1
 	github.com/casdoor/ldapserver v1.2.0
 	github.com/casdoor/notify v0.45.0
 	github.com/casdoor/oss v1.8.0
-	github.com/casdoor/xorm-adapter/v3 v3.1.0
+	github.com/casdoor/xorm-adapter/v3 v3.1.1
 	github.com/casvisor/casvisor-go-sdk v1.4.0
 	github.com/dchest/captcha v0.0.0-20200903113550-03f5f0333e1f
 	github.com/denisenkom/go-mssqldb v0.9.0
@@ -53,9 +52,11 @@ require (
 	github.com/stripe/stripe-go/v74 v74.29.0
 	github.com/tealeg/xlsx v1.0.5
 	github.com/thanhpk/randstr v1.0.4
+	github.com/tklauser/go-sysconf v0.3.14 // indirect
 	github.com/xorm-io/builder v0.3.13
 	github.com/xorm-io/core v0.7.4
 	github.com/xorm-io/xorm v1.1.6
+	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	golang.org/x/crypto v0.21.0
 	golang.org/x/net v0.21.0
 	golang.org/x/oauth2 v0.17.0
