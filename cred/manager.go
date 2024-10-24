@@ -34,7 +34,7 @@ func GetCredManager(passwordType string) CredManager {
 		return NewPbkdf2SaltCredManager()
 	} else if passwordType == "argon2id" {
 		return NewArgon2idCredManager()
-	} else if passwordType == "salt512-crypt" {
+	} else if passwordType == "sha512-crypt" {
 		return NewSha512CryptCredManager()
 	}
 	return nil
