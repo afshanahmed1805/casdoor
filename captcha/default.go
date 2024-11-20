@@ -14,7 +14,7 @@
 
 package captcha
 
-import "github.com/apicasystem/casdoor/object"
+import "github.com/ApicaSystem/casdoor/object"
 
 type DefaultCaptchaProvider struct{}
 

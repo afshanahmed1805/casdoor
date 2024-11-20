@@ -15,7 +15,7 @@
 package controllers
 
 import (
-	"github.com/apicasystem/casdoor/object"
+	"github.com/ApicaSystem/casdoor/object"
 )
 
 // GetPrometheusInfo

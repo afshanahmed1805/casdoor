@@ -17,11 +17,11 @@ package object
 import (
 	"fmt"
 
-	"github.com/apicasystem/casdoor/idp"
+	"github.com/ApicaSystem/casdoor/idp"
 
-	"github.com/apicasystem/casdoor/pp"
+	"github.com/ApicaSystem/casdoor/pp"
 
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/xorm-io/core"
 )
 

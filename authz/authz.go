@@ -17,9 +17,9 @@ package authz
 import (
 	"strings"
 
-	"github.com/apicasystem/casdoor/conf"
-	"github.com/apicasystem/casdoor/object"
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/conf"
+	"github.com/ApicaSystem/casdoor/object"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/casbin/casbin/v2"
 	stringadapter "github.com/qiangmzsx/string-adapter/v2"
 )

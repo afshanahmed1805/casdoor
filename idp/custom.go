@@ -21,7 +21,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/mitchellh/mapstructure"
 	"golang.org/x/oauth2"
 )

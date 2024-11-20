@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/apicasystem/casdoor/proxy"
+	"github.com/ApicaSystem/casdoor/proxy"
 )
 
 type HttpNotificationClient struct {

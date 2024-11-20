@@ -14,7 +14,7 @@
 
 package object
 
-import "github.com/apicasystem/casdoor/cred"
+import "github.com/ApicaSystem/casdoor/cred"
 
 func calculateHash(user *User) (string, error) {
 	syncer, err := getDbSyncerForUser(user)

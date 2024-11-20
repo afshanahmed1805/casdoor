@@ -21,7 +21,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/apicasystem/casdoor/conf"
+	"github.com/ApicaSystem/casdoor/conf"
 	"gopkg.in/square/go-jose.v2"
 )
 

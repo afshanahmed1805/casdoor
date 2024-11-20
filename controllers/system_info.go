@@ -15,7 +15,7 @@
 package controllers
 
 import (
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/util"
 )
 
 // GetSystemInfo

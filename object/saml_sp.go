@@ -23,10 +23,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/apicasystem/casdoor/idp"
+	"github.com/ApicaSystem/casdoor/idp"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/apicasystem/casdoor/i18n"
+	"github.com/ApicaSystem/casdoor/i18n"
 	saml2 "github.com/russellhaering/gosaml2"
 	dsig "github.com/russellhaering/goxmldsig"
 )

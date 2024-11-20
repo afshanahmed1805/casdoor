@@ -18,8 +18,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/apicasystem/casdoor/conf"
-	"github.com/apicasystem/casdoor/object"
+	"github.com/ApicaSystem/casdoor/conf"
+	"github.com/ApicaSystem/casdoor/object"
 	"github.com/beego/beego/context"
 )
 

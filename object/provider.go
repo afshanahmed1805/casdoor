@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/apicasystem/casdoor/i18n"
-	"github.com/apicasystem/casdoor/idp"
-	"github.com/apicasystem/casdoor/pp"
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/i18n"
+	"github.com/ApicaSystem/casdoor/idp"
+	"github.com/ApicaSystem/casdoor/pp"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/beego/beego/context"
 	"github.com/xorm-io/core"
 )

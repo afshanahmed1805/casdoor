@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/apicasystem/casdoor/i18n"
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/i18n"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/beevik/etree"
 	dsig "github.com/russellhaering/goxmldsig"
 )

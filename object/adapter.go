@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/apicasystem/casdoor/conf"
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/conf"
+	"github.com/ApicaSystem/casdoor/util"
 	xormadapter "github.com/casdoor/xorm-adapter/v3"
 	"github.com/xorm-io/core"
 	"github.com/xorm-io/xorm"

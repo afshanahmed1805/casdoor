@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/apicasystem/casdoor/conf"
+	"github.com/ApicaSystem/casdoor/conf"
 	"github.com/beego/beego/context"
 )
 

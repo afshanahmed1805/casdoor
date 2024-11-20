@@ -20,8 +20,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/apicasystem/casdoor/conf"
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/conf"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/beego/beego/context"
 	"github.com/casvisor/casvisor-go-sdk/casvisorsdk"
 )

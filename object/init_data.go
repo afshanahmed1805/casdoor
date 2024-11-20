@@ -15,8 +15,8 @@
 package object
 
 import (
-	"github.com/apicasystem/casdoor/conf"
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/conf"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/casvisor/casvisor-go-sdk/casvisorsdk"
 )
 

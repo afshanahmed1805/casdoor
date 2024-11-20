@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/apicasystem/casdoor/conf"
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/conf"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/xorm-io/builder"
 	"github.com/xorm-io/core"
 )

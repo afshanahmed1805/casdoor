@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/xorm-io/core"
 )
 

@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/apicasystem/casdoor/object"
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/object"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/beego/beego/utils/pagination"
 	xormadapter "github.com/casdoor/xorm-adapter/v3"
 )

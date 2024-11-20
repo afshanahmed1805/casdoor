@@ -1,4 +1,4 @@
-module github.com/apicasystem/casdoor
+module github.com/ApicaSystem/casdoor
 
 go 1.16
 

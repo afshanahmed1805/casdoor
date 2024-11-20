@@ -15,7 +15,7 @@
 package notification
 
 import (
-	"github.com/apicasystem/casdoor/proxy"
+	"github.com/ApicaSystem/casdoor/proxy"
 	"github.com/casdoor/notify"
 	"github.com/casdoor/notify/service/matrix"
 	"maunium.net/go/mautrix/id"

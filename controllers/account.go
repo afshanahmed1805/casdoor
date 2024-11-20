@@ -20,9 +20,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/apicasystem/casdoor/form"
-	"github.com/apicasystem/casdoor/object"
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/form"
+	"github.com/ApicaSystem/casdoor/object"
+	"github.com/ApicaSystem/casdoor/util"
 )
 
 const (
@@ -316,7 +316,7 @@ func (c *ApiController) Logout() {
 	user := c.GetSessionUsername()
 
 	if accessToken == "" && redirectUri == "" {
-		// TODO https://github.com/apicasystem/casdoor/pull/1494#discussion_r1095675265
+		// TODO https://github.com/ApicaSystem/casdoor/pull/1494#discussion_r1095675265
 		if user == "" {
 			c.ResponseOk()
 			return
@@ -341,7 +341,7 @@ func (c *ApiController) Logout() {
 		c.ResponseOk(user, application.HomepageUrl)
 		return
 	} else {
-		// "post_logout_redirect_uri" has been made optional, see: https://github.com/apicasystem/casdoor/issues/2151
+		// "post_logout_redirect_uri" has been made optional, see: https://github.com/ApicaSystem/casdoor/issues/2151
 		// if redirectUri == "" {
 		// 	c.ResponseError(c.T("general:Missing parameter") + ": post_logout_redirect_uri")
 		// 	return
@@ -371,7 +371,7 @@ func (c *ApiController) Logout() {
 
 		c.ClearUserSession()
 		c.ClearTokenSession()
-		// TODO https://github.com/apicasystem/casdoor/pull/1494#discussion_r1095675265
+		// TODO https://github.com/ApicaSystem/casdoor/pull/1494#discussion_r1095675265
 		owner, username := util.GetOwnerAndNameFromId(user)
 
 		_, err = object.DeleteSessionId(util.GetSessionId(owner, username, object.CasdoorApplication), c.Ctx.Input.CruSession.SessionID())

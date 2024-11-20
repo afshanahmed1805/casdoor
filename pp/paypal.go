@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/apicasystem/casdoor/conf"
+	"github.com/ApicaSystem/casdoor/conf"
 
 	"github.com/go-pay/gopay"
 	"github.com/go-pay/gopay/paypal"

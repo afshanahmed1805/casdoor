@@ -15,7 +15,7 @@
 package object
 
 import (
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/util"
 )
 
 type Ldap struct {

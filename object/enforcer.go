@@ -17,7 +17,7 @@ package object
 import (
 	"fmt"
 
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/casbin/casbin/v2"
 	xormadapter "github.com/casdoor/xorm-adapter/v3"
 	"github.com/xorm-io/core"

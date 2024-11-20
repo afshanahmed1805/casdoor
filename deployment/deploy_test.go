@@ -20,8 +20,8 @@ package deployment
 import (
 	"testing"
 
-	"github.com/apicasystem/casdoor/object"
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/object"
+	"github.com/ApicaSystem/casdoor/util"
 )
 
 func TestDeployStaticFiles(t *testing.T) {

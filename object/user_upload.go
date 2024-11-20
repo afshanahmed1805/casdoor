@@ -18,8 +18,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/apicasystem/casdoor/util"
-	"github.com/apicasystem/casdoor/xlsx"
+	"github.com/ApicaSystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/xlsx"
 )
 
 func getUserMap(owner string) (map[string]*User, error) {

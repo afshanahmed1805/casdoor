@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/apicasystem/casdoor/conf"
-	"github.com/apicasystem/casdoor/object"
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/conf"
+	"github.com/ApicaSystem/casdoor/object"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/beego/beego/utils/pagination"
 )
 

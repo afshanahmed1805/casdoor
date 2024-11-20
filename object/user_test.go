@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/xorm-io/core"
 )
 

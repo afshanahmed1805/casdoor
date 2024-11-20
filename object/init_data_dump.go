@@ -14,7 +14,7 @@
 
 package object
 
-import "github.com/apicasystem/casdoor/util"
+import "github.com/ApicaSystem/casdoor/util"
 
 func DumpToFile(filePath string) error {
 	return writeInitDataToFile(filePath)

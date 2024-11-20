@@ -17,7 +17,7 @@ package object
 import (
 	"context"
 
-	"github.com/apicasystem/casdoor/notification"
+	"github.com/ApicaSystem/casdoor/notification"
 	"github.com/casdoor/notify"
 )
 

@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/util"
 	"golang.org/x/oauth2"
 )
 

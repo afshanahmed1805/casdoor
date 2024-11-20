@@ -19,7 +19,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/casvisor/casvisor-go-sdk/casvisorsdk"
 )
 

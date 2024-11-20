@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/apicasystem/casdoor/object"
+	"github.com/ApicaSystem/casdoor/object"
 )
 
 func (c *ApiController) GetSamlMeta() {

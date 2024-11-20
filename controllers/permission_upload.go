@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/apicasystem/casdoor/object"
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/object"
+	"github.com/ApicaSystem/casdoor/util"
 )
 
 func (c *ApiController) UploadPermissions() {

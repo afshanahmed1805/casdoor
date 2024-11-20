@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/nyaruka/phonenumbers"
 	"golang.org/x/oauth2"
 )

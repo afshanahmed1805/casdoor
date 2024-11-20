@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/apicasystem/casdoor/conf"
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/conf"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/config"
 	"github.com/casbin/casbin/v2/log"

@@ -24,7 +24,7 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/go-sql-driver/mysql"
 )
 
@@ -43,7 +43,7 @@ func (syncer *Syncer) getOriginalUsers() ([]*OriginalUser, error) {
 	}
 
 	// Memory leak problem handling
-	// https://github.com/apicasystem/casdoor/issues/1256
+	// https://github.com/ApicaSystem/casdoor/issues/1256
 	users := syncer.getOriginalUsersFromMap(results)
 	for _, m := range results {
 		for k := range m {

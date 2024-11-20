@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/apicasystem/casdoor/conf"
-	"github.com/apicasystem/casdoor/i18n"
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/conf"
+	"github.com/ApicaSystem/casdoor/i18n"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/xorm-io/core"
 )
 

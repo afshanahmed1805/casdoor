@@ -19,7 +19,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/xorm-io/core"
 )
 

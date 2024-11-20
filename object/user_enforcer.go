@@ -6,7 +6,7 @@ import (
 
 	"github.com/casbin/casbin/v2/errors"
 
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/casbin/casbin/v2"
 )
 

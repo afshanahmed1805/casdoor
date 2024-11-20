@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/apicasystem/casdoor/object"
-	"github.com/apicasystem/casdoor/storage"
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/object"
+	"github.com/ApicaSystem/casdoor/storage"
+	"github.com/ApicaSystem/casdoor/util"
 	"github.com/casdoor/oss"
 )
 

@@ -19,7 +19,7 @@ package object
 import (
 	"crypto/tls"
 
-	"github.com/apicasystem/casdoor/email"
+	"github.com/ApicaSystem/casdoor/email"
 	"github.com/casdoor/gomail/v2"
 )
 

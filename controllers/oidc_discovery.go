@@ -17,7 +17,7 @@ package controllers
 import (
 	"strings"
 
-	"github.com/apicasystem/casdoor/object"
+	"github.com/ApicaSystem/casdoor/object"
 )
 
 // GetOidcDiscovery

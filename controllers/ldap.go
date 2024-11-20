@@ -17,8 +17,8 @@ package controllers
 import (
 	"encoding/json"
 
-	"github.com/apicasystem/casdoor/object"
-	"github.com/apicasystem/casdoor/util"
+	"github.com/ApicaSystem/casdoor/object"
+	"github.com/ApicaSystem/casdoor/util"
 )
 
 type LdapResp struct {
