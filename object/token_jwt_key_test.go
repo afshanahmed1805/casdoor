@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/afshanahmed1805/casdoor/util"
+	"github.com/apicasystem/casdoor/util"
 )
 
 func TestGenerateRsaKeys(t *testing.T) {

@@ -19,8 +19,8 @@ import (
 	"hash/fnv"
 	"log"
 
-	"github.com/afshanahmed1805/casdoor/conf"
-	"github.com/afshanahmed1805/casdoor/object"
+	"github.com/apicasystem/casdoor/conf"
+	"github.com/apicasystem/casdoor/object"
 	ldap "github.com/casdoor/ldapserver"
 	"github.com/lor00x/goldap/message"
 )

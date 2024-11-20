@@ -17,7 +17,7 @@ package pp
 import (
 	"fmt"
 
-	"github.com/afshanahmed1805/casdoor/util"
+	"github.com/apicasystem/casdoor/util"
 )
 
 type BalancePaymentProvider struct{}

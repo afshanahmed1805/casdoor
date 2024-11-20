@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/afshanahmed1805/casdoor/util"
+	"github.com/apicasystem/casdoor/util"
 )
 
 //go:embed locales/*/data.json

@@ -24,7 +24,7 @@
 package routers
 
 import (
-	"github.com/afshanahmed1805/casdoor/controllers"
+	"github.com/apicasystem/casdoor/controllers"
 	"github.com/beego/beego"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

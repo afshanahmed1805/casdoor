@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/afshanahmed1805/casdoor/util"
+	"github.com/apicasystem/casdoor/util"
 	"github.com/golang-jwt/jwt/v4"
 )
 

@@ -15,7 +15,7 @@
 package object
 
 import (
-	"github.com/afshanahmed1805/casdoor/xlsx"
+	"github.com/apicasystem/casdoor/xlsx"
 )
 
 func getPermissionMap(owner string) (map[string]*Permission, error) {

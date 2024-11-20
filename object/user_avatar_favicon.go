@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/afshanahmed1805/casdoor/util"
+	"github.com/apicasystem/casdoor/util"
 	"golang.org/x/net/html"
 )
 

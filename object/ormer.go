@@ -25,8 +25,8 @@ import (
 
 	"github.com/casvisor/casvisor-go-sdk/casvisorsdk"
 
-	"github.com/afshanahmed1805/casdoor/conf"
-	"github.com/afshanahmed1805/casdoor/util"
+	"github.com/apicasystem/casdoor/conf"
+	"github.com/apicasystem/casdoor/util"
 	"github.com/beego/beego"
 	xormadapter "github.com/casdoor/xorm-adapter/v3"
 	_ "github.com/denisenkom/go-mssqldb" // db = mssql

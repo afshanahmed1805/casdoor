@@ -17,7 +17,7 @@ package object
 import (
 	"errors"
 
-	"github.com/afshanahmed1805/casdoor/util"
+	"github.com/apicasystem/casdoor/util"
 )
 
 type SmsMfa struct {

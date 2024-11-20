@@ -15,7 +15,7 @@
 package notification
 
 import (
-	"github.com/afshanahmed1805/casdoor/proxy"
+	"github.com/apicasystem/casdoor/proxy"
 	"github.com/casdoor/notify"
 	"github.com/casdoor/notify/service/line"
 )

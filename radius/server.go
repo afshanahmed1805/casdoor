@@ -20,9 +20,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/afshanahmed1805/casdoor/conf"
-	"github.com/afshanahmed1805/casdoor/object"
-	"github.com/afshanahmed1805/casdoor/util"
+	"github.com/apicasystem/casdoor/conf"
+	"github.com/apicasystem/casdoor/object"
+	"github.com/apicasystem/casdoor/util"
 	"layeh.com/radius"
 	"layeh.com/radius/rfc2865"
 	"layeh.com/radius/rfc2866"

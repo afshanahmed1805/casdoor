@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/afshanahmed1805/casdoor/util"
+	"github.com/apicasystem/casdoor/util"
 	"github.com/beego/beego/logs"
 )
 

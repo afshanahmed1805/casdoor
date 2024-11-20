@@ -21,10 +21,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/afshanahmed1805/casdoor/conf"
-	"github.com/afshanahmed1805/casdoor/i18n"
-	"github.com/afshanahmed1805/casdoor/idp"
-	"github.com/afshanahmed1805/casdoor/util"
+	"github.com/apicasystem/casdoor/conf"
+	"github.com/apicasystem/casdoor/i18n"
+	"github.com/apicasystem/casdoor/idp"
+	"github.com/apicasystem/casdoor/util"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/xorm-io/core"
 )

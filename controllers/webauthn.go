@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/afshanahmed1805/casdoor/form"
-	"github.com/afshanahmed1805/casdoor/object"
-	"github.com/afshanahmed1805/casdoor/util"
+	"github.com/apicasystem/casdoor/form"
+	"github.com/apicasystem/casdoor/object"
+	"github.com/apicasystem/casdoor/util"
 	"github.com/go-webauthn/webauthn/protocol"
 	"github.com/go-webauthn/webauthn/webauthn"
 )

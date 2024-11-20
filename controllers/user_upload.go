@@ -21,8 +21,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/afshanahmed1805/casdoor/object"
-	"github.com/afshanahmed1805/casdoor/util"
+	"github.com/apicasystem/casdoor/object"
+	"github.com/apicasystem/casdoor/util"
 )
 
 func saveFile(path string, file *multipart.File) (err error) {

@@ -17,8 +17,8 @@ package routers
 import (
 	"fmt"
 
-	"github.com/afshanahmed1805/casdoor/object"
-	"github.com/afshanahmed1805/casdoor/util"
+	"github.com/apicasystem/casdoor/object"
+	"github.com/apicasystem/casdoor/util"
 	"github.com/beego/beego/context"
 	"github.com/casvisor/casvisor-go-sdk/casvisorsdk"
 )
