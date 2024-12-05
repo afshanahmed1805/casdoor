@@ -15,13 +15,11 @@
 package controllers
 
 import (
-	"encoding/base64"
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
 	"io"
 	"net/http"
-	"net/url"
 	"strconv"
 	"strings"
 
@@ -923,19 +921,46 @@ func (c *ApiController) GetSamlLogin() {
 }
 
 func (c *ApiController) HandleSamlLogin() {
-	relayState := c.Input().Get("RelayState")
-	samlResponse := c.Input().Get("SAMLResponse")
-	decode, err := base64.StdEncoding.DecodeString(relayState)
+	userName := c.Input().Get("email")
+	name := c.Input().Get("name")
+	user, err := object.GetUser(fmt.Sprintf("built-in/%s", userName))
 	if err != nil {
 		c.ResponseError(err.Error())
-		return
 	}
-	slice := strings.Split(string(decode), "&")
-	relayState = url.QueryEscape(relayState)
-	samlResponse = url.QueryEscape(samlResponse)
-	targetUrl := fmt.Sprintf("%s?relayState=%s&samlResponse=%s",
-		slice[4], relayState, samlResponse)
-	c.Redirect(targetUrl, http.StatusSeeOther)
+	if user == nil {
+		ok, err := object.AddUser(&object.User{
+			Owner:             "built-in",
+			Name:              userName,
+			CreatedTime:       util.GetCurrentTime(),
+			UpdatedTime:       util.GetCurrentTime(),
+			SignupApplication: "ascent",
+			PasswordType:      "sha512-crypt",
+			DisplayName:       name,
+			Email:             userName,
+			Type:              "saml-user",
+		})
+		if !ok {
+			c.ResponseError(err.Error())
+		}
+		if err != nil {
+			c.ResponseError(err.Error())
+		}
+	}
+	session := object.Session{
+		Owner:       "built-in",
+		Name:        userName,
+		Application: "ascent",
+		CreatedTime: util.GetCurrentTime(),
+	}
+	ok, err := object.AddSession(&session)
+	if err != nil {
+		c.ResponseError(err.Error())
+	}
+	if !ok {
+		c.ResponseError("Failed to add session")
+	}
+	c.SetSessionUsername(fmt.Sprintf("built-in/%s", userName))
+	c.ResponseOk("Authenticated")
 }
 
 // HandleOfficialAccountEvent ...

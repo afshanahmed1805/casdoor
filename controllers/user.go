@@ -536,7 +536,7 @@ func (c *ApiController) SetPassword() {
 	}
 
 	targetUser.Password = newPassword
-	targetUser.UpdateUserPassword(organization)
+	//targetUser.UpdateUserPassword(organization)
 	targetUser.NeedUpdatePassword = false
 
 	_, err = object.UpdateUser(userId, targetUser, []string{"password", "need_update_password", "password_type"}, false)
